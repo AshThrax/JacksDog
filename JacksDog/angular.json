@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "JacksDog": {
+    "jacksDog": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "JacksDog:build:production"
+              "browserTarget": "jacksDog:build:production"
             },
             "development": {
-              "browserTarget": "JacksDog:build:development"
+              "browserTarget": "jacksDog:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "JacksDog:build"
+            "browserTarget": "jacksDog:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "9d3e7264-5f9f-4c54-97fa-0195b33eb5f2"
+    "analytics": "879a4203-1a97-4dd8-b1b7-d9065cd024c5"
   }
 }
