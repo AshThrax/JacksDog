@@ -8,17 +8,26 @@ import { FooterComponent } from './shared/Component/footer/footer.component';
 import { ArticlesListComponent } from './shared/Component/articles-list/articles-list.component';
 import { ArticlesSingleComponent } from './shared/Component/articles-single/articles-single.component';
 
+import { AccueilComponent } from './acceuil/accueil/accueil.component';
+import { ContactComponent } from './contact/contact/contact.component';
+import { ServiceComponent } from './service/service/service.component';
+import { appRoutingModule } from './app.routing';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     ArticlesListComponent,
-    ArticlesSingleComponent
+    ArticlesSingleComponent,
+    AccueilComponent,
+    ContactComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    appRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

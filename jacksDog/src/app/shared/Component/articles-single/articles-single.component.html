@@ -1,18 +1,10 @@
 <div class="row ms-3 m2-3 mt-2">
-  <article class="shadow p-3 mb-5 bg-body-tertiary rounded">
-    <h3>
-        {{unitem.titre}}
-    </h3>
-      <article class="container">
-        <div class="col container-fluid ">
-        {{unitem.content}}
-
-        </div>
-        <div class="row">
-            <div class="col">
-              <img class="" src="{{unitem.image}}" alt="">
-            </div>
-        </div>
-      </article>
-  </article>
+  <div class="card p-4">
+    <div class="card-body">
+      <h5 class="card-title">{{unitem.titre}}</h5>
+      <p class="card-text">{{unitem.content}}</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+    <img src="{{unitem.image}}" class="card-img-bottom" alt="...">
+  </div>
 </div>
