@@ -10,12 +10,17 @@ export class ArticlesListComponent {
 
   items: Article[]=[
     {
-      titre:'presentation',
-      content: 'eziofzeobdfzodnkodfnikdfznkfdnkldfzknlmdzf',
+      titre:'Pension',
+      content: 'Lorem ipsum dolor sit amet. Qui error odio 33 natus ullam est ullam sint est officiis dolorem aut voluptates dolorum. In excepturi eaque ut consequatur nobis et nobis aspernatur sed aspernatur modi. Et galisum numquam vel sint earum quo omnis voluptas.',
       image:'https://static.vecteezy.com/system/resources/thumbnails/005/857/332/small/funny-portrait-of-cute-corgi-dog-outdoors-free-photo.jpg'},
     {
-      titre:'agrou',
-      content:' I have climbed highest mountains I have run through the fields Only to be with you Only to be with you I have run I have crawled I have scaled these city walls These city walls Only to be with you',
+      titre:'Elevage',
+      content:' Ex culpa dignissimos sed magni rerum et rerum repellat sed ipsam repellendus ex cupiditate dicta. Est enim exercitationem ex consequuntur rerum et doloribus dolores hic galisum quia et inventore obcaecati vel doloremque quos. Quo minima rerum est eveniet amet sed accusamus laboriosam.',
+      image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJcwpPUvhpRJ88lUO1s6xlOIp64H8kgEHNA&usqp=CAU'
+    },
+    {
+      titre:'Atelier Educatif',
+      content:'Qui explicabo expedita est voluptates consequuntur qui velit pariatur aut explicabo unde in libero voluptas non amet culpa sit voluptas possimus. Et nemo illo qui error delectus et perferendis sequi et quia soluta. Et minus maxime et pariatur blanditiis est alias rerum id nobis ullam eum repudiandae dolor. Id blanditiis voluptas est temporibus ipsam nam reiciendis sint aut commodi omnis ut esse repudiandae.',
       image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJcwpPUvhpRJ88lUO1s6xlOIp64H8kgEHNA&usqp=CAU'
     }
   ]
