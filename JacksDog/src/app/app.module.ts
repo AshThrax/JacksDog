@@ -12,6 +12,7 @@ import { AccueilComponent } from './acceuil/accueil/accueil.component';
 import { ContactComponent } from './contact/contact/contact.component';
 import { ServiceComponent } from './service/service/service.component';
 import { appRoutingModule } from './app.routing';
+import { SharedModule } from './shared/Module/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { appRoutingModule } from './app.routing';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    appRoutingModule
+    appRoutingModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

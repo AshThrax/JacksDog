@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
 import { Article } from '../../class/article';
+import { ArticleServiceService } from 'src/app/features/services/article-service.service';
+import { Observable, map } from 'rxjs';
 
 @Component({
   selector: 'app-articles-list',
@@ -8,7 +11,8 @@ import { Article } from '../../class/article';
 })
 export class ArticlesListComponent {
 
-  items: Article[]=[
+  items!: Article[];
+  /* [
     {
       titre:'Pension',
       content: 'Lorem ipsum dolor sit amet. Qui error odio 33 natus ullam est ullam sint est officiis dolorem aut voluptates dolorum. In excepturi eaque ut consequatur nobis et nobis aspernatur sed aspernatur modi. Et galisum numquam vel sint earum quo omnis voluptas.',
@@ -24,6 +28,16 @@ export class ArticlesListComponent {
       image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJcwpPUvhpRJ88lUO1s6xlOIp64H8kgEHNA&usqp=CAU'
     }
   ]
+  */
+  constructor(private ArtService: ArticleServiceService)
+  {
+    ArtService.getData().subscribe(res =>
+    {
+       this.items=res
+    });
   }
+
+
+}
 
 
