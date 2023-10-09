@@ -1,10 +1,11 @@
 <div class="container">
   <div class="row">
-    <h2>Accueil</h2>
+    <h2 class="justify-content-center text-center">Accueil</h2>
 
   </div>
   <div class="row p-10">
-   <div class="col">
+
+   <div class="col mt-5">
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -13,13 +14,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="assets\image\cailloux et ravioli best friend4ever.jpg" class="d-block w-100" alt="...">
+          <img src={{AccueilInfo.carouselF}} class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="assets\image\Ravioli_laisse.jpg" class="d-block w-100" alt="...">
+          <img src={{AccueilInfo.CarouselS}} class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="assets\image\papavioli_doudou.jpg" class="d-block w-100" alt="...">
+          <img src={{AccueilInfo.CarouselQ}}  class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -32,14 +33,11 @@
       </button>
     </div>
   </div>
+
     <div class="col p-2">
-      <h3>A Propos</h3>
+      <h3>{{AccueilInfo.presentation}}</h3>
 
-      <p>Lorem ipsum dolor sit amet. Est perspiciatis laboriosam sit eaque soluta et dolorem consectetur et dolore dolore sit tempore iusto sit suscipit omnis. Ut accusantium dicta et magnam fugiat eum magnam culpa eum omnis voluptate? Ut debitis consequatur ad repudiandae tempora et repudiandae amet sed incidunt distinctio et expedita asperiores At quia assumenda quo fuga dolores. Hic voluptatem voluptate et fugiat facere et sint assumenda qui voluptatem debitis vel sint beatae.
-
-        Hic odio error 33 omnis exercitationem est commodi magni qui molestiae cupiditate aut alias omnis et ipsam iusto. Ut delectus doloremque est culpa temporibus ab animi debitis qui velit amet. Quo doloribus perspiciatis et velit libero et totam iure ea quia nisi non tempora exercitationem et earum sequi ut iure natus? Ut doloremque neque non maiores nemo ut alias natus ea nemo accusantium.
-
-        Non repudiandae reprehenderit in quia voluptas et adipisci voluptatem. Nam iste voluptates est voluptatibus natus qui dolorum maiores. Ut adipisci facilis sed molestias laudantium aut reiciendis eveniet et pariatur dolorem.</p>
+      <p>{{AccueilInfo.presentationContent}}</p>
     </div>
   </div>
 
@@ -47,14 +45,10 @@
     <h2>Details</h2>
   </div>
   <div class="row p-10">
-    <div class="col p2"><img class="img-fluid" src="assets/image/raviolis.png" alt=""> </div>
-    <div class="col p2">
-      <h3>A Propos</h3>
-      <p>Lorem ipsum dolor sit amet. Est perspiciatis laboriosam sit eaque soluta et dolorem consectetur et dolore dolore sit tempore iusto sit suscipit omnis. Ut accusantium dicta et magnam fugiat eum magnam culpa eum omnis voluptate? Ut debitis consequatur ad repudiandae tempora et repudiandae amet sed incidunt distinctio et expedita asperiores At quia assumenda quo fuga dolores. Hic voluptatem voluptate et fugiat facere et sint assumenda qui voluptatem debitis vel sint beatae.
-
-        Hic odio error 33 omnis exercitationem est commodi magni qui molestiae cupiditate aut alias omnis et ipsam iusto. Ut delectus doloremque est culpa temporibus ab animi debitis qui velit amet. Quo doloribus perspiciatis et velit libero et totam iure ea quia nisi non tempora exercitationem et earum sequi ut iure natus? Ut doloremque neque non maiores nemo ut alias natus ea nemo accusantium.
-
-        Non repudiandae reprehenderit in quia voluptas et adipisci voluptatem. Nam iste voluptates est voluptatibus natus qui dolorum maiores. Ut adipisci facilis sed molestias laudantium aut reiciendis eveniet et pariatur dolorem.</p>
+    <div class="col mt-5 p-2"><img class="img-fluid" src={{AccueilInfo.detailimage}} alt=""> </div>
+    <div class="col p-2">
+      <h3>{{AccueilInfo.detail}}</h3>
+      <p>{{AccueilInfo.detailContent}}</p>
     </div>
   </div>
 </div>

@@ -1,18 +1,13 @@
-
-  <div class=" shadow ms-3 m2-3 mt-2">
-
-    <div class="container  card col p-4">
-      <div class=" row card-body">
-        <h5 class="card-title col">{{unitem.titre}}</h5>
-        <div class="col">
-          <p class="card-text col">{{unitem.content}}</p>
-        </div>
-        <div class="col">
-          <img src="{{unitem.image}}" class="card-img-bottom" alt="...">
-        </div>
-
-        </div>
-
-      </div>
+<div class="card">
+  <div class="card-header">
+    {{unitem.titre}}
   </div>
-
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">{{unitem.content}}</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card-body">
+      <img src="{{unitem.image}}" class="card-img-bottom img-thumbnail"  alt="...">
+    </div>
+  </div>
+</div>

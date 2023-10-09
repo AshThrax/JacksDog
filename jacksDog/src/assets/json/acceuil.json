@@ -1,12 +1,10 @@
-[
-  {
-    "titre":"presentation",
-    "content":"",
-    "image":""
-  },
-  {
-    "titre":"",
-    "content":"",
-    "image":""
-  }
-]
+{
+  "presentation":"A Propos",
+  "presentationContent":"Lorem ipsum dolor sit amet. Est perspiciatis laboriosam sit eaque soluta et dolorem consectetur et dolore dolore sit tempore iusto sit suscipit omnis. Ut accusantium dicta et magnam fugiat eum magnam culpa eum omnis voluptate? Ut debitis consequatur ad repudiandae tempora et repudiandae amet sed incidunt distinctio et expedita asperiores At quia assumenda quo fuga dolores. Hic voluptatem voluptate et fugiat facere et sint assumenda qui voluptatem debitis vel sint beatae.",
+  "carouselF":"assets/image/cailloux et ravioli best friend4ever.jpg",
+  "CarouselS":"assets/image/Ravioli_laisse.jpg",
+  "CarouselQ":"assets/image/papavioli_doudou.jpg",
+  "detail":"details",
+  "detailContent":"Lorem ipsum dolor sit amet. Est perspiciatis laboriosam sit eaque soluta et dolorem consectetur et dolore dolore sit tempore iusto sit suscipit omnis. Ut accusantium dicta et magnam fugiat eum magnam culpa eum omnis voluptate? Ut debitis consequatur ad repudiandae tempora et repudiandae amet sed incidunt distinctio et expedita asperiores At quia assumenda quo fuga dolores. Hic voluptatem voluptate et fugiat facere et sint assumenda qui voluptatem debitis vel sint beatae.",
+  "detailimage":"assets/image/cute_raviolis.jpg"
+}
